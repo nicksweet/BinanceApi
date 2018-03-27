@@ -5,6 +5,7 @@
 //  Created by Sumant Manne on 10/19/17.
 //
 
+import Foundation
 import Alamofire
 
 // MARK: General endpoints

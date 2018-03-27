@@ -5,3 +5,4 @@ BinanceApi.xcodeproj/xcuserdata
 BinanceApi.xcodeproj/project.xcworkspace/xcuserdata
 *.framework.zip
 *.dSYM
+Package.resolved

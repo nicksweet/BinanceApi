@@ -89,6 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2DC6345206ACB62004DBADD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E92A053F1FA1C7A400906A7A /* DataRequest+BinanceRequest.swift */,
+				E9CAF1881F9D5B15006A7A7D /* Base.swift */,
+				E928A4851F9A03C30078BA33 /* BinanceApi.swift */,
+				E9320E541FA4EA4100BA2B05 /* BinanceObjCApi.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C2DC6347206AD8E4004DBADD /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E928A4791F9A03AD0078BA33 /* BinanceApiTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		E928A4611F9A03AD0078BA33 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +116,8 @@
 				E9E069131FA944680059A091 /* UNLICENSE */,
 				E928A48D1F9A09D00078BA33 /* .gitignore */,
 				E928A4871F9A05030078BA33 /* Cartfile */,
+				C2DC6345206ACB62004DBADD /* Sources */,
+				C2DC6347206AD8E4004DBADD /* Tests */,
 				E928A46D1F9A03AD0078BA33 /* BinanceApi */,
 				E928A4781F9A03AD0078BA33 /* BinanceApiTests */,
 				E928A46C1F9A03AD0078BA33 /* Products */,
@@ -118,10 +139,6 @@
 			children = (
 				E928A46E1F9A03AD0078BA33 /* BinanceApi.h */,
 				E928A46F1F9A03AD0078BA33 /* Info.plist */,
-				E92A053F1FA1C7A400906A7A /* DataRequest+BinanceRequest.swift */,
-				E9CAF1881F9D5B15006A7A7D /* Base.swift */,
-				E928A4851F9A03C30078BA33 /* BinanceApi.swift */,
-				E9320E541FA4EA4100BA2B05 /* BinanceObjCApi.swift */,
 			);
 			path = BinanceApi;
 			sourceTree = "<group>";
@@ -129,7 +146,6 @@
 		E928A4781F9A03AD0078BA33 /* BinanceApiTests */ = {
 			isa = PBXGroup;
 			children = (
-				E928A4791F9A03AD0078BA33 /* BinanceApiTests.swift */,
 				E948BBE41FA3D3C300C95F3C /* BinanceApiObjCTests.m */,
 				E928A47B1F9A03AD0078BA33 /* Info.plist */,
 			);

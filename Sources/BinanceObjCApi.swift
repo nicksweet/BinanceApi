@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Foundation
 
 private func isBridged(_ subject: Any) -> Bool {
     let mirror = Mirror(reflecting: subject)

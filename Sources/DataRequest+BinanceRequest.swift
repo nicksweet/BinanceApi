@@ -6,6 +6,7 @@
 //  Copyright © 2017 Sumant Manne. All rights reserved.
 //
 
+import Foundation
 import Alamofire
 import Foundation
 
