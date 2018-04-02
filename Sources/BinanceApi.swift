@@ -127,10 +127,10 @@ public struct BinanceCandlesticksRequest: BinanceRequest {
     public let interval: BinanceCandlesticksInterval
     /// Default = 500; Max = 500.
     public let limit: Int32?
-    public let startTime: Date?
-    public let endTime: Date?
+    public let startTime: Int?
+    public let endTime: Int?
 
-    public init(symbol: String, interval: BinanceCandlesticksInterval, limit: Int32? = nil, startTime: Date? = nil, endTime: Date? = nil) {
+    public init(symbol: String, interval: BinanceCandlesticksInterval, limit: Int32? = nil, startTime: Int? = nil, endTime: Int? = nil) {
         self.symbol = symbol
         self.interval = interval
         self.limit = limit != 0 ? limit : nil
